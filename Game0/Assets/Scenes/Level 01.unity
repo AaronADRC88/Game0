@@ -442,6 +442,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 779726273}
   smoothing: 5
+--- !u!1 &768866601 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1913870248212234, guid: 8f20e361d1b84f84dbe4c9afbde31c16,
+    type: 2}
+  m_PrefabInternal: {fileID: 779726266}
+--- !u!114 &768866602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 768866601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  healthSlider: {fileID: 1308869173}
+  damageImage: {fileID: 264915328}
+  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
+  flashSpeed: 5
+  flashColour: {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0.366}
 --- !u!1001 &779726266
 Prefab:
   m_ObjectHideFlags: 0
@@ -826,6 +849,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 84
   m_CollisionDetection: 0
+--- !u!114 &988140141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 988140134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 0.5
+  attackDamage: 10
 --- !u!4 &988140142 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400074, guid: be66986effd141b4992d2d78be127139, type: 3}
